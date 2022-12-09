@@ -107,9 +107,9 @@ public class Directory {
    }
    
    /**
-    * The cumulative sum of all Directories that are < 100000 in size.
+    * The cumulative sum of all Directories that are less than 100000 in size.
     * 
-    * @return sum of all directories < 100000 in size.
+    * @return sum of all directories less than 100000 in size.
     */
    public static int getBigTotal(){
       return bigTotal;
@@ -118,7 +118,7 @@ public class Directory {
    /**
     * Recursive method to calculate the total size of all subdirectories.  Also
     * calculates BigTotal, the cumulative sum of all Directories that are
-    * < 100000 in size.
+    * less than 100000 in size.
     * 
     * @return total size of this Directory object's contents (files and
     * subdirectories).
