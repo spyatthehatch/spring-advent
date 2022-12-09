@@ -48,7 +48,7 @@ returning expected results.
 
 Not entirely impressive, but my focus this year is learning a new technology
 and getting 50 stars.  We'll see how this goes!
-
+</pre>
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
   9   00:57:17   8037      0   01:12:28   5329      0
@@ -60,5 +60,6 @@ Day       Time   Rank  Score       Time   Rank  Score
   3   00:40:58  12327      0   00:54:48  11355      0
   2   00:15:49   6255      0   00:22:58   5723      0
   1   00:09:16   5005      0   00:13:27   5001      0
+</pre>
 
 -S@tH
