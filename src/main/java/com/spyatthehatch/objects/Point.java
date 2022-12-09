@@ -60,6 +60,24 @@ public final class Point {
 	   return CoordinateUtils.getManhattanDistance(this.x, this.y, p.x, p.y);
 	}
 
+	/**
+	 * Checks if this Point is adjacent to a given Point, by +/- 1 coordinate in
+	 * the X and/or Y axis.  Diagonal adjacency is included.
+	 * 
+	 * @param p Point to check adjacency.
+	 * @return True, if adjacent.  False, otherwise.
+	 */
+   public boolean isAdjacent(final Point p){
+      final int diffX = this.x - p.x;
+      final int diffY = this.y - p.y;
+      
+      if (diffX >= -1 && diffX <= 1 && diffY >= -1 && diffY <= 1){
+         return true;
+      } else {
+         return false;
+      }
+   }
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;

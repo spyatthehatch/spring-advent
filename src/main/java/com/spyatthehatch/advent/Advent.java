@@ -32,7 +32,7 @@ public class Advent {
       
       final PuzzleManager pm = new PuzzleManager();
       
-      final String latest = "2022D9";
+      final String latest = "2022D10";
       pm.solve(latest);
       pm.printReport(latest);
    }
