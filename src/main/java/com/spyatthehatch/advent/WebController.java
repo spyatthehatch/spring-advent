@@ -30,7 +30,6 @@ public class WebController {
     */
    @GetMapping("/advent")
    public String advent(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
-      model.addAttribute("name", name);
       model.addAttribute("title", Constants.HTTP_TITLE);
       LOGGER.info("Received incoming advent request.");
       return "advent";

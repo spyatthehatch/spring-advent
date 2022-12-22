@@ -15,7 +15,7 @@ public final class Constants {
    /**
     * "Advent of Code".  The title value for HTTP web pages.
     */
-   public static final String HTTP_TITLE = "Advent of Code";
+   public static final String HTTP_TITLE = "S@tH Advent of Code Solutions";
       
    /**
     * The comma "," as a String.

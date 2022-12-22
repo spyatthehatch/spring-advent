@@ -1,14 +1,12 @@
 # spring-advent
-This project is a sandbox for testing Advent of Code solutions while getting
-more experience developing with Spring Boot.
+This project is a sandbox for testing [Advent of Code](https://adventofcode.com/2022)
+solutions while getting more experience developing with Spring Boot.
 
 ### Advent of Code
 
 I thank [Eric Wastl](https://adventofcode.com/2022/about) for creating what has
 become one of my favorite times of the year.  His dedication to keeping AoC
 fun, fresh, and exciting is truly a gift to the community.  Thank you, Eric!
-
-[Advent of Code](https://adventofcode.com/2022)
 
 My solutions are definitely not elegant and I use a lot of brute force
 techniques.  With the loops within loops within loops, I'm certain my
@@ -21,7 +19,7 @@ challenges and attempt to find some elegant solutions.
 These are solutions that worked for my input sets.  Be advised that you may
 discover answers to questions you don't want answered.
 
-### Compiling
+### Compiling and Running
 Compiling requires Maven 3.6.3 (or later) and Java 8.
 ```sh
 mvnw spring-boot:run
@@ -42,7 +40,9 @@ This would also give me the opportunity for some front-end development, as most
 of my career has been in back-end services.
 
 Unit tests that use the Advent of Code examples to assert methods are correctly
-returning expected results. 
+returning expected results.
+
+
 
 ### 2022 Personal Stats
 
@@ -51,6 +51,12 @@ and getting 50 stars.  We'll see how this goes!
 <pre>
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
+ 15   02:07:22   7025      0   15:35:53  17300      0
+ 14   11:30:47  21768      0   12:21:07  21220      0
+ 13   23:15:05  31359      0   23:49:10  30384      0
+ 12   01:43:40   6581      0   02:10:02   6950      0
+ 11   14:28:10  38882      0   17:53:03  35782      0
+ 10   01:54:41  12873      0   02:36:27  12144      0
   9   00:57:17   8037      0   01:12:28   5329      0
   8   00:39:40   7461      0   01:19:15   8582      0
   7   00:52:49   5183      0   01:09:19   5711      0

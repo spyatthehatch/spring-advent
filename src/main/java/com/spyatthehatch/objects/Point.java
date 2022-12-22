@@ -8,16 +8,16 @@ import com.spyatthehatch.util.CoordinateUtils;
  * @author Bill Everton
  * @version Advent 2022
  */
-public final class Point {
+public class Point {
    /**
     * X coordinate.
     */
-	private int x;
+	protected int x;
 	
 	/**
 	 * Y coordinate.
 	 */
-	private int y;
+	protected int y;
 	
 	/**
 	 * Point object constructor.
@@ -54,7 +54,8 @@ public final class Point {
 	 * 
 	 * @param p Point to compare.
 	 * @return Manhattan distance between this Point and the given Point p.
-	 * @see com.spyatthehatch.util.CoordinateUtils#getManhattanDistance(int, int, int, int)
+	 * @see com.spyatthehatch.util.CoordinateUtils#getManhattanDistance(int,
+	 * int, int, int)
 	 */
 	public int getManhattanDistance(final Point p){
 	   return CoordinateUtils.getManhattanDistance(this.x, this.y, p.x, p.y);

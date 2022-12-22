@@ -28,11 +28,12 @@ public class Advent {
     */
    public static void main(final String[] args){
       LOGGER.info("Starting Advent of Code application.");
+      LOGGER.info("URL endpoint: http://127.0.0.1:8080");
       SpringApplication.run(Advent.class, args);
       
       final PuzzleManager pm = new PuzzleManager();
       
-      final String latest = "2022D10";
+      final String latest = "2022D16";
       pm.solve(latest);
       pm.printReport(latest);
    }

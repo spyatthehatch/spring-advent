@@ -20,13 +20,11 @@ public class Puzzle {
    /**
     * The year for this Puzzle.
     */
-   @XmlAttribute(required = true)
    private int year;
    
    /**
     * The day number for this year, without leading zeros.
     */
-   @XmlAttribute(required = true)
    private int day;
    
    /**
@@ -56,6 +54,11 @@ public class Puzzle {
    private Solution solution;
    
    /**
+    * URL to this Advent of Code puzzle.
+    */
+   private String url;
+   
+   /**
     * Set the year for this Puzzle object.
     * 
     * @param year Year of this Puzzle object.
@@ -80,6 +83,15 @@ public class Puzzle {
     */
    public void setTitle(final String title){
       this.title = title;
+   }
+   
+   /**
+    * Set the URL for this Puzzle object.
+    * 
+    * @param url URL for this Puzzle object.
+    */
+   public void setUrl(final String url){
+      this.url = url;
    }
    
    /**
@@ -148,15 +160,45 @@ public class Puzzle {
    }
    
    /**
+    * Get the year of this Puzzle object.
+    * 
+    * @return Year of this Puzzle object.
+    */
+   @XmlAttribute(required = true)
+   public int getYear() {
+      return this.year;
+   }
+   
+   /**
+    * Get the day of this Puzzle object.
+    * 
+    * @return Day of this Puzzle object.
+    */
+   @XmlAttribute(required = true)
+   public int getDay() {
+      return this.day;
+   }
+   
+   /**
     * Get the title for this Puzzle object.
     * 
     * @return Title for this Puzzle object.
     */
    @XmlElement
    public String getTitle() {
-      return title;
+      return this.title;
    }
 
+   /**
+    * Get the URL for this Puzzle object.
+    * 
+    * @return URL for this Puzzle object.
+    */
+   @XmlElement
+   public String getUrl() {
+      return this.url;
+   }
+   
    /**
     * Get the Part One description for this Puzzle object.
     * 
@@ -164,7 +206,7 @@ public class Puzzle {
     */
    @XmlElement
    public String getPartOneDescription() {
-      return partOneDescription;
+      return this.partOneDescription;
    }
 
    /**
@@ -174,7 +216,7 @@ public class Puzzle {
     */
    @XmlElement
    public String getPartTwoDescription() {
-      return partTwoDescription;
+      return this.partTwoDescription;
    }
    
    /**
@@ -185,7 +227,7 @@ public class Puzzle {
     */
    public String getId(){
       if(this.id == null){
-         this.id = year + ID_DELIMITER + day;
+         this.id = this.year + ID_DELIMITER + this.day;
       }
       
       return this.id;
@@ -195,10 +237,10 @@ public class Puzzle {
    public int hashCode() {
       final int prime = 31;
       int result = 1;
-      result = prime * result + day;
-      result = prime * result + ((id == null) ? 0 : id.hashCode());
-      result = prime * result + ((title == null) ? 0 : title.hashCode());
-      result = prime * result + year;
+      result = prime * result + this.day;
+      result = prime * result + ((this.id == null) ? 0 : this.id.hashCode());
+      result = prime * result + ((this.title == null) ? 0 : this.title.hashCode());
+      result = prime * result + this.year;
       return result;
    }
 
@@ -211,19 +253,19 @@ public class Puzzle {
       if (getClass() != obj.getClass())
          return false;
       Puzzle other = (Puzzle) obj;
-      if (day != other.day)
+      if (this.day != other.day)
          return false;
-      if (id == null) {
+      if (this.id == null) {
          if (other.id != null)
             return false;
-      } else if (!id.equals(other.id))
+      } else if (!this.id.equals(other.id))
          return false;
-      if (title == null) {
+      if (this.title == null) {
          if (other.title != null)
             return false;
-      } else if (!title.equals(other.title))
+      } else if (!this.title.equals(other.title))
          return false;
-      if (year != other.year)
+      if (this.year != other.year)
          return false;
       return true;
    }

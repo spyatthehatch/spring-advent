@@ -23,6 +23,24 @@ public class CoordinateUtils {
 		return Math.abs(x2 - x1) + Math.abs(y2 - y1);
 	}
 	
+   /**
+    * Get the Manhattan distance (X distance + Y distance + Z distance) between
+    * two 3D points.
+    * 
+    * @param x1 First point X coordinate.
+    * @param y1 First point Y coordinate.
+    * @param z1 First point Z coordinate.
+    * @param x2 Second point X coordinate.
+    * @param y2 Second point Y coordinate.
+    * @param z2 Second point Z coordinate.
+    * @return Manhattan distance between the two 3D points.
+    */
+	public static int getManhattanDistance(final int x1, final int y1, final
+	   int z1, final int x2, final int y2, final int z2){
+	   
+	   return Math.abs(x2 - x1) + Math.abs(y2 - y1) + Math.abs(z2 - z1); 
+	}
+	
 	/**
 	 * Get the Manhattan distance (X distance + Y distance + Z distance) between
 	 * two 3D points.

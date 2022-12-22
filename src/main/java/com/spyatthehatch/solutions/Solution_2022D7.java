@@ -22,6 +22,16 @@ public class Solution_2022D7 extends AbstractSolution {
     */
    private List<Directory>dirList = null;
    
+   /**
+    * Total hard drive space, 70M.
+    */
+   private final int HARDDRIVE_SIZE = 70000000;
+   
+   /**
+    * Space required by system update, 30M;
+    */
+   private final int REQUIRED_SPACE = 30000000;
+   
    public Solution_2022D7(){
       super();
       this.root = new Directory("/", null);
@@ -73,8 +83,8 @@ public class Solution_2022D7 extends AbstractSolution {
    }   
    
    public String solvePartTwo() {
-      final int currentFreeSpace = 70000000 - this.root.getTotalSize();
-      final int needFreeSpace = 30000000 - currentFreeSpace;
+      final int currentFreeSpace = HARDDRIVE_SIZE - this.root.getTotalSize();
+      final int needFreeSpace = REQUIRED_SPACE - currentFreeSpace;
       int smallest = Integer.MAX_VALUE;      
       
       for(final Directory d : this.dirList){

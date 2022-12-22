@@ -131,8 +131,10 @@ public class PuzzleManager {
       final Puzzle p = getPuzzle(id);
       
       if(p != null){
-         LOGGER.info("Puzzle " + id + " Part One solution: " + p.getPartOneAnswer());
-         LOGGER.info("Puzzle " + id + " Part Two solution: " + p.getPartTwoAnswer());
+         LOGGER.info(p.getYear() + " Day " + p.getDay() + " Puzzle:" +
+            p.getTitle() + ", Part One solution: " + p.getPartOneAnswer());
+         LOGGER.info(p.getYear() + " Day " + p.getDay() + " Puzzle:" +
+            p.getTitle() + ", Part Two solution: " + p.getPartTwoAnswer());
       } else {
          LOGGER.warn("Unable to locate Puzzle " + id + ". Cannot print.");
       }
