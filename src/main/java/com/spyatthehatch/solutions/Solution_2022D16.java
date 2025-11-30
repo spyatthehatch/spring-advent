@@ -46,26 +46,12 @@ public class Solution_2022D16 extends AbstractSolution {
    }
    
    public String solvePartOne(){
-      int minutes = 30;
-      Valve current = this.map.get("AA");
-      
-      
-      
-      
-      
-      
+    
       return getPartOneAnswer();
    }   
    
    public String solvePartTwo() {
-      
-      
-      
-      
-      
-      
-      
-      
+
       return getPartTwoAnswer();
    }
 }

@@ -80,7 +80,6 @@ public class Directory {
    
    /**
     * Get a subdirectory by name.
-    * 
     * @param name Name of subdirectory Directory object.
     * @return subdirectory Directory object, or null if it does not exist.
     */
@@ -90,7 +89,6 @@ public class Directory {
    
    /**
     * Get the name of this Directory.
-    * 
     * @return Name of this Directory.
     */
    public String getName() {
@@ -99,7 +97,6 @@ public class Directory {
    
    /**
     * Get the total size of all contents (files and subdirectories).
-    * 
     * @return total size of all contents.
     */
    public int getTotalSize(){

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Advent of Code is created by Eric Wastl.  All puzzle content credits go to Eric, thank you for creating such a fun holiday advent!-->
+<puzzles>
+  <puzzle year="2023" day="1" url="https://adventofcode.com/2023/day/1">
+    <title>Puzzle 1</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2023" day="2" url="https://adventofcode.com/2023/day/2">
+    <title>Puzzle 2</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2023" day="3" url="https://adventofcode.com/2023/day/3">
+    <title>Puzzle 3</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2023" day="4" url="https://adventofcode.com/2023/day/4">
+    <title>Puzzle 4</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2023" day="5" url="https://adventofcode.com/2023/day/5">
+    <title>Puzzle 5</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2023" day="6" url="https://adventofcode.com/2023/day/6">
+    <title>Puzzle 6</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2023" day="7" url="https://adventofcode.com/2023/day/7">
+    <title>Puzzle 7</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2023" day="8" url="https://adventofcode.com/2023/day/8">
+    <title>Puzzle 8</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2023" day="9" url="https://adventofcode.com/2023/day/9">
+    <title>Puzzle 9</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2023" day="10" url="https://adventofcode.com/2023/day/10">
+    <title>Puzzle 10</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+</puzzles>

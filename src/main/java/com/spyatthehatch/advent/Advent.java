@@ -2,8 +2,8 @@ package com.spyatthehatch.advent;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
 
 import com.spyatthehatch.puzzles.PuzzleManager;
 
@@ -26,14 +26,16 @@ public class Advent {
     * 
     * @param args Input arguments for Advent application.
     */
-   public static void main(final String[] args){
+   public static void main (final String[] args){
       LOGGER.info("Starting Advent of Code application.");
       LOGGER.info("URL endpoint: http://127.0.0.1:8080");
-      SpringApplication.run(Advent.class, args);
+      SpringApplicationBuilder builder = new SpringApplicationBuilder(Advent.class);
+      builder.headless(false);
+      builder.run(args);
       
-      final PuzzleManager pm = new PuzzleManager();
+      final PuzzleManager pm = new PuzzleManager(Constants.PUZZLES_2024);
       
-      final String latest = "2022D16";
+      final String latest = "2024D15";
       pm.solve(latest);
       pm.printReport(latest);
    }

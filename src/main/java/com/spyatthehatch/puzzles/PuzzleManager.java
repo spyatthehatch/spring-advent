@@ -11,7 +11,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.spyatthehatch.util.ResourceReader;
-import com.spyatthehatch.advent.Constants;
 import com.spyatthehatch.solutions.Solution;
 import com.spyatthehatch.solutions.SolutionFactory;
 
@@ -37,10 +36,11 @@ public class PuzzleManager {
       
    /**
     * Constructor.
+    * @param resource Name of resource.
     */
-   public PuzzleManager(){
+   public PuzzleManager(final String resource){
       this.puzzleMap = new HashMap<String, Puzzle>();
-      final List<Puzzle> puzzles = getPuzzlesFromResource(Constants.PUZZLES_2022);
+      final List<Puzzle> puzzles = getPuzzlesFromResource(resource);
       for(Puzzle p : puzzles){
          final String id = p.getId();
          final Solution s = SolutionFactory.newInstance(id);

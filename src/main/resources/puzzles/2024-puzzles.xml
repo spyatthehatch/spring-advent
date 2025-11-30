@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- Advent of Code is created by Eric Wastl.  All puzzle content credits go to Eric, thank you for creating such a fun holiday advent!-->
+<puzzles>
+  <puzzle year="2024" day="1" url="https://adventofcode.com/2024/day/1">
+    <title>Day 1: Historian Hysteria</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2024" day="2" url="https://adventofcode.com/2024/day/2">
+    <title>Day 2: Red-Nosed Reports</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2024" day="3" url="https://adventofcode.com/2024/day/3">
+    <title>Day 3: Mull It Over</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2024" day="4" url="https://adventofcode.com/2024/day/4">
+    <title>Day 4: Ceres Search</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2024" day="5" url="https://adventofcode.com/2024/day/5">
+    <title>Day 5: Print Queue</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2024" day="6" url="https://adventofcode.com/2024/day/6">
+    <title>Day 6</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2024" day="7" url="https://adventofcode.com/2024/day/7">
+    <title>Day 7</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2024" day="8" url="https://adventofcode.com/2024/day/8">
+    <title>Day 8: Resonant Collinearity</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2024" day="9" url="https://adventofcode.com/2024/day/9">
+    <title>Day 9</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2024" day="10" url="https://adventofcode.com/2024/day/10">
+    <title>Day 10</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2024" day="11" url="https://adventofcode.com/2024/day/11">
+    <title>Day 11</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2024" day="12" url="https://adventofcode.com/2024/day/12">
+    <title>Day 12</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2024" day="13" url="https://adventofcode.com/2024/day/13">
+    <title>Day 13</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2024" day="14" url="https://adventofcode.com/2024/day/14">
+    <title>Day 14</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+  <puzzle year="2024" day="15" url="https://adventofcode.com/2024/day/15">
+    <title>Day 15</title>
+    <partOneDescription>part 1</partOneDescription>
+    <partTwoDescription>part 2</partTwoDescription>
+  </puzzle>
+</puzzles>

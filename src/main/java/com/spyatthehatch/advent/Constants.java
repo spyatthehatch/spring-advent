@@ -26,4 +26,14 @@ public final class Constants {
     * Resource XML file for 2022 puzzles.
     */
    public static final String PUZZLES_2022 = "puzzles/2022-puzzles.xml";
+   
+   /**
+    * Resource XML file for 2023 puzzles.
+    */
+   public static final String PUZZLES_2023 = "puzzles/2023-puzzles.xml";
+   
+   /**
+    * Resource XML file for 2024 puzzles.
+    */
+   public static final String PUZZLES_2024 = "puzzles/2024-puzzles.xml";
 }
